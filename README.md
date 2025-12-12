@@ -1,4 +1,4 @@
-# Turboport V1.0.0
+# Turboport V2.0.0
 
 `turboport` is a very fast port-scanning tool written in Rust.
 
