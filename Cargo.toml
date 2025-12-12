@@ -1,7 +1,12 @@
 [package]
-name = "turboport"
+name = "turboport"     
 version = "1.0.0"
 edition = "2024"
+authors = ["Selim Öztürk <selimozt2013@gmail.com>"]
+description = "A very fast port scanning tool written in Rust."
+license = "MIT"
+repository = "https://github.com/selimozturk13/turboport"
+readme="README.md"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
