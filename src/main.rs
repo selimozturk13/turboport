@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Selim Öztürk
+// SPDX-License-Identifier: MIT
+
 use futures::future::join_all;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicUsize, Ordering};
