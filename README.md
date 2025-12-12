@@ -78,6 +78,16 @@ Typical performance:
 
 ## Installation
 
+### Downloading with `cargo`(Recomented)
+
+```
+cargo install turboport
+```
+
+This command will install turboport to system PATH so you can run it from anywhere.
+
+---
+
 ### Build from source
 
 ```
