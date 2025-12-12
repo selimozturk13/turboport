@@ -46,10 +46,18 @@ turboport -t 500 google.com
 
 ---
 
+### Set Concurrency
+
+```
+turboport -c 300 scanme.nmap.org
+```
+
+---
+
 ### Full example
 
 ```
-turboport -s 20 -e 9000 -t 300 192.168.1.10
+turboport -s 20 -e 9000 -t 300 -c 500 192.168.1.10 
 ```
 
 ---
@@ -61,6 +69,7 @@ turboport -s 20 -e 9000 -t 300 192.168.1.10
 | `-s` | `--start`   | Starting port | `1` |
 | `-e` | `--end`     | Ending port | `1024` |
 | `-t` | `--timeout` | Timeout in ms per connection attempt | `1000` |
+| `-c` | `--concurrency` | Number of the paralel threads | `1000` |
 |      | *(host)*    | Target host or IP | required |
 
 ---
